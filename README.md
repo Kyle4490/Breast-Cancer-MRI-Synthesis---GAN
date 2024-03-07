@@ -1,6 +1,6 @@
 # Conditional generative adversarial network driven radiomic prediction of mutation status based on magnetic resonance imaging of breast cancer
 
-## Z. Huang, **L. Chen**, Y. Sun, Q. Liu, P. Hu.
+Z. Huang, **L. Chen**, Y. Sun, Q. Liu, P. Hu.
 
 ## Introduction 
 
