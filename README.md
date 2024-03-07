@@ -26,7 +26,7 @@ We proposed the utilization of a well-trained conditional generative adversarial
 
 ### Data 
 
-The cGAN is trained with matched patient MRI and BTF features obtained from patient multi-omic data. MRIs are in the `matched_sideview` and `matched_sideview_test` directories. Matched BTF features are stored in the `BTF_side.csv`. Unpaired BTF features are stored in `Mu_paired_test.csv`, which represents patients with no imaging data available and will be used for MRI prediction after the cGAN model is tuned and well-trained. 
+The cGAN is trained with matched patient MRI and BTF features obtained from patient multi-omic data. Some sample MRIs are in the `matched_sideview` and `matched_sideview_test` directories. Matched BTF features are stored in the `BTF_side.csv`. Unpaired BTF features are stored in `Mu_paired_test.csv`, which represents patients with no imaging data available and will be used for MRI prediction after the cGAN model is tuned and well-trained. 
 
 * raw multi-omics data is obtained from the [TCGA](https://www.cancer.gov/tcga )
 * MRI obtained from the [TCIA](https://www.cancerimagingarchive.net), where the digital image pixel values are extracted
